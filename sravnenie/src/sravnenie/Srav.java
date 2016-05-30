@@ -1,11 +1,11 @@
-package fromkeybrd;
+package sravnenie;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class vvod
+public class Srav
 {
     public static void main(String[] args) throws Exception
     {
