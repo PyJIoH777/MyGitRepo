@@ -19,9 +19,10 @@ System.out.println("give me number 1");
 	
 	if (i > k && i > a)
 		System.out.println("самое большое число- первое");
+	else if (k > i && k > a)
+		System.out.println("самое большое число- второе");
 	else 
-		System.out.println("самое большое число- не первое");
-	
+		System.out.println("самое большое число- третье");
 }
 
 
