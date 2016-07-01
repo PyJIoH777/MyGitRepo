@@ -12,7 +12,7 @@ public class Strings implements Runnable {
 			} catch (InterruptedException e) {e.printStackTrace();}
 			
 			if (!str.contentEquals("")) {
-				System.out.println("(String) - i gaot '" + str + "'!");
+				System.out.println("(String) - i got '" + str + "'!");
 				str = "";
 			}
 		}

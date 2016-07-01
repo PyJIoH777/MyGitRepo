@@ -12,7 +12,7 @@ public class Integers implements Runnable {
 			} catch (InterruptedException e) {e.printStackTrace();}
 			
 			if (!num.contentEquals("")) {
-				System.out.println("(Integer) - i gaot an " + Integer.parseInt(num) + "!");
+				System.out.println("(Integer) - i got an " + Integer.parseInt(num) + "!");
 				num = "";
 			}
 		}
