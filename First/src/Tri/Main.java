@@ -9,10 +9,11 @@ public class Main  {
 	public static void main(String [] args){
 		System.out.println("Starting!");
 		Scan();
-		Figura myFigura = new Figura(i,k);
+		//Figura myFigura = new Figura(i,k);
+		Worker Fig = new Worker(i,k);
 		System.out.println("Figure created");
 		//System.out.println(myFigura.getType());
-		System.out.println(myFigura.getType());
+		System.out.println(Worker.g);
 	}
 	
 	public static void Scan(){
@@ -23,5 +24,4 @@ public class Main  {
 			k = scn.nextInt();
 			scn.close();
 		}
-	
 }

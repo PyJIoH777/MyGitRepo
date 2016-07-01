@@ -10,7 +10,6 @@ public class Figura {
 		this.a = a;
 		this.b = b;
 		defType();
-		System.out.println(a + b);
 	}
 	
 	enum Type {
@@ -21,8 +20,8 @@ public class Figura {
 		return myType;
 	}
 
-	private void setType(Type typeToSet1) {
-		myType = typeToSet1.name();
+	private void setType(Type typeToSet) {
+		myType = typeToSet.name();
 	}
 	
 
